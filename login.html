@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/login.css">
+</head>
+<body>
+    <div class="center">
+        <h1>Our Newsletter</h1>
+        <form>
+
+            <div class="inputbox">
+                <input class="input-name box-shadow-normal" type="text" name="name" placeholder="Nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="No se aceptan caracteres de tipo numerico" required>
+            </div>
+    
+          <div class="inputbox">
+            <input class="input-email box-shadow-normal" type="text" name="email" required placeholder="Email" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" title="No es un email valido">
+          </div>
+
+          <div class="inputbox">
+            <input class="input-password_1 box-shadow-normal" type="password" name="password_1" placeholder="Password">
+          </div>
+
+          <div class="inputbox">
+            <input class="input-password_2 box-shadow-normal" type="password" name="password_2" placeholder="Password">
+          </div>
+
+          
+          <div class="inputbox terminos">
+              <input class="input-checkbox box-shadow-normal" type="checkbox" name="terminos" id="">
+              <label for="condiciones">Aceptar terminos y condiciones</label>
+          </div>
+
+          <button type="submit" class="btn-submit">Registrar</button>
+
+        </form>
+      </div>
+
+      <script src="./scripts/formulario.js"></script>
+</body>
+</html>

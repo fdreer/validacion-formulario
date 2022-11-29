@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, greenyellow, dodgerblue);
+  font-family: "Sansita Swashed", cursive;
+}
+.center {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  padding: 50px 50px;
+  background: #fff;
+  border-radius: 10px;
+}
+.center h1 {
+  font-size: 2rem;
+  border-left: 5px solid dodgerblue;
+  padding: 10px;
+  color: #000;
+  letter-spacing: 5px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.inputbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.center .inputbox input {
+  border: 2px solid #000;
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.box-shadow-normal{
+  box-shadow: #000 5px 5px;
+}
+
+.box-shadow-error{
+  box-shadow: red 5px 5px;
+}
+
+.input-checkbox{
+  box-shadow: none;
+}
+
+.btn-submit {
+
+  background: dodgerblue;
+  color: #fff;
+  border: #fff;
+  border-radius: 30px;
+  padding: .8rem;
+  width: 50%;
+  /* margin-top: 2rem; */
+}
+.btn-submit:hover {
+  background: linear-gradient(45deg, greenyellow, dodgerblue);
+}
+
+.terminos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#condiciones{
+    margin: 0;
+}
+
+form{
+    text-align: center;
+}
